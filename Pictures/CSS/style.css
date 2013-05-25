@@ -1,0 +1,197 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Grant Barton
+Developer @GA in Boston
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.fadein { position:relative; width:500px; height:332px; }
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+body {
+  color: #28111d;
+  font-size:12px;
+  font-family: font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  background-image: url('../images/greendogpaw3.png');
+  
+    }
+
+p, div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+
+header {
+  margin: 0 auto;
+height:60px;
+width: 1040px;
+}
+
+#container {
+  width:960px;
+  margin: 0 auto 0 auto;
+  background:#f3fdf5;
+ 
+
+}
+
+ #main  {
+    width:960px;
+    height:1450px;
+    padding-left:3px;
+    background:url('../images/mulchbk.png')
+    
+  }
+
+
+
+
+#clear {
+  clear:both;
+}
+
+#clearleft {
+  clear:left;
+}
+
+/*----------------------------------------------------------------------------- 
+NAVIGATION 
+-----------------------------------------------------------------------------*/
+nav a {
+  text-decoration:none;
+  display:block;
+  line-height: 3.5;
+  width:137px;
+  height:80px;
+  color: white;
+  background:#6699ff;
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+  padding-right:11px;
+}
+nav a:hover {
+  text-decoration:underline;
+  background:url('../images/bgpawprints.png');
+  display:block;
+  line-height: 3.5;
+  width:137px;
+  height:80px;
+  color: black;
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+  padding-right:11px;
+  border-radius:10px;
+
+
+}
+
+nav li {
+  float:left;
+  list-style:none;
+  height:80px;
+}
+
+a {
+  color:#28111d;
+  text-decoration:n;
+}
+
+a:hover {
+  color: #a5b656;
+  font-size:13px;
+  text-decoration:underline;
+}
+
+
+
+/*sections*/
+
+ul.polaroids { width: 970px; 
+  margin: 0 0 70px 30px; }
+    ul.polaroids li { display: inline; }
+    ul.polaroids a { background: #fff;
+     display: inline; float: left; 
+     margin: 0 0 27px 30px;
+     width: auto;
+      padding: 10px 10px 15px; 
+     text-align: center;
+      font-family: "Marker Felt", sans-serif; 
+     text-decoration: none; 
+     color: #333; 
+     font-size: 18px;
+      -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+      -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+       -webkit-transform: rotate(-2deg); 
+       -webkit-transition: -webkit-transform .34s linear; 
+       -moz-transform: rotate(-2deg); }
+    ul.polaroids img { display: block; 
+      width: 220px; margin-bottom: 10px; }
+    ul.polaroids a:after { content: attr(title); }
+    
+    ul.polaroids a {
+-webkit-transform: rotate(-2deg);
+-moz-transform: rotate(-2deg);
+}
+ 
+/* Rotate all even images 2 degrees */
+
+ 
+/* Don't rotate every third image, but offset its position */
+
+ 
+/* Rotate every fifth image by 5 degrees and offset it */
+
+ 
+/* Keep default rotate for every eighth, but offset it */
+
+ 
+/* Keep default rotate for every eleventh, but offset it */
+
+ ul.polaroids li a:hover { -webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+position: relative;
+z-index: 5; }
+
+    ul.polaroids li.messy a { margin-top: -375px; margin-left: 160px; -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); }
+     }
+
+#footer {
+  text-align:center;
+   background: #F3FDF5;
+   font-size:14px;
+   font-family: 'Corben', Georgia, Times, serif;
+}
+
+
+   
